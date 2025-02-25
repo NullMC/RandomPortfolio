@@ -1,0 +1,13 @@
+.separatore{
+    margin-top: 30rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 2px;
+    background-color: #606060;
+}
+
+@media (max-width: 450px){
+    .separatore{
+        margin-top: 0;
+    }
+}
