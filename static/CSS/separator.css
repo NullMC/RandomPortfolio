@@ -1,9 +1,9 @@
 .separatore{
-    margin-top: 30rem;
+    margin-top: 3rem;
     margin-left: 5vw;
     margin-right: 5vw;
     height: 2px;
-    background-color: #606060;
+    background-color: #696969
 }
 
 @media (max-width: 450px){

@@ -1,16 +1,15 @@
-/* Stile predefinito dell'hero */
 .hero-image {
     display: flex;
     flex-direction: column;
     height: 60vh;
-    background-image: url(#);
+    background-image: url(imgs/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     z-index: 2;
 }
-/* Aggiunta del gradient tramite lo pseudoelemento */
+
 .hero-image::before {
     content: "";  
     position: absolute;
@@ -24,7 +23,6 @@
     z-index: 1;
 }
 
-/* Media query per schermi con larghezza massima di 430px */
 @media (max-width: 430px) {
     .hero-image{
         height: 50vh;
@@ -97,18 +95,9 @@ h1{
     letter-spacing: 0.05rem;
 }
 
-.right-side .img-container{
-    height: 100%;
-    background-image: url(#);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-
 .row .btn {
     border-radius: 10px;
-    background: #FB2C2C;
+    background: #5cfb2c;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     width: fit-content;
@@ -128,7 +117,7 @@ h1{
 }
 .send .btn{
     border-radius: 10px;
-    background: #FB2C2C;
+    background: #5cfb2c;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     width: 10rem;
@@ -149,41 +138,13 @@ h1{
 
 .row .btn:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 4px 15px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);
 
     background-color: white;
-    border-color: #FB2C2C;;
+    border-color: #5cfb2c;;
     border: solid 2px;
-    color: #FB2C2C;
+    color: #5cfb2c;
 }
 
-.jokeSection{
-    display: flex;
-    flex-flow: column;
-    width: 70%;
-    align-self: center;
-    text-align: center;
-    margin-top: 3rem;
-    align-items: center;
-}
-.jokeSection h2{
-    width: 100%;
-    margin: 5rem;
-    color: #000;
-    font-size: 5vw;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 92.5%;
-    text-transform: uppercase;
-}
-
-.inputHandle{
-    margin: 1rem;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 
 @media (max-width: 450px){
