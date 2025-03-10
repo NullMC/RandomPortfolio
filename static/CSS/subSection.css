@@ -1,6 +1,33 @@
 .SubSection{
+    padding: 1rem;
     margin: 2rem;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 4px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 3rem;
     align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.profile{
+    width: 30%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem 0 0 1rem;
+}
+.info{
+    width: 70%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.profile, .info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.img-settings{
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.2);
 }
