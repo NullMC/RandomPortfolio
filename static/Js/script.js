@@ -28,7 +28,8 @@ fetch(url)
     document.querySelector('.picture').innerHTML = `<img src="${user.picture.large}" alt="Profile Picture" class="img-fluid rounded-circle img-settings">`;
     document.querySelector('.name').innerText = `Name: ${user.name.first} ${user.name.last}`;
     document.querySelector('.details').innerText = `Age: ${user.dob.age}, ${user.gender}, Nationality: ${user.nat}`;
-    document.querySelector('.contacts').innerText = `Email: ${user.email}, Phone number: ${user.phone}`;
+    document.querySelector('.email').innerText = `Email: ${user.email}`;
+    document.querySelector('.phone').innerText = `Phone number: ${user.phone}`;
     
     document.querySelector('.indirizzo').innerText = `Address: ${user.location.street.name} ${user.location.street.number}`;
     document.querySelector('.location').innerText = `Where I'm from: ${user.location.city}, ${user.location.state}, ${user.location.country}`;
